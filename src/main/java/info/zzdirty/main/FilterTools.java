@@ -70,11 +70,7 @@ public class FilterTools {
                 break;
             }
         }
-        /*“粉饰”匹配词库：“粉饰太平”竟然说是敏感词
-         * “个人”匹配词库：“个人崇拜”竟然说是敏感词
-         * if(matchFlag < 2 && !flag){
-            matchFlag = 0;
-        }*/
+
         if (!flag) {
             matchFlag = 0;
         }
